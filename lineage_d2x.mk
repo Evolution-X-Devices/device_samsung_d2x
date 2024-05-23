@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 ## Inscreen Fingerprint HAL
-TARGET_HAVE_FOD := true
+TARGET_HAS_UDFPS := true
 
 ## S Pen
 TARGET_HAVE_SPEN := true
